@@ -62,4 +62,22 @@ a {
     -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.29);
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.29); }
 
+.social-objects {
+  display: flex;
+  flex-direction: column; }
+  .social-objects .social-item {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 19px; }
+    .social-objects .social-item .social-item-icon {
+      width: 15%;
+      height: 15%; }
+    .social-objects .social-item .social-item-text h3 {
+      font-size: 14px; }
+    .social-objects .social-item .social-item-text p {
+      font-size: 12px;
+      font-family: "Raleway", sans-serif;
+      padding: 15px;
+      color: #333; }
+
 /*# sourceMappingURL=main.css.map */
