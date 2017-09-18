@@ -15,21 +15,6 @@
         </div>
 
         <ol id="todo-list">
-            <li>
-               Pick up Billy
-            </li>
-            <li>
-                Buy Groceries
-            </li>
-            <li>
-                Pay Bills
-            </li>
-            <li>
-                Go to post office
-            </li>
-            <li>
-                Mail letters
-            </li>
 
 
         </ol>
@@ -37,9 +22,12 @@
     <script>
         function addToList(){
             var x = document.getElementById("todo-input").value;
-            var todoList = document.getElementById("todo-list").innerHTML;
-            todoList = todoList + "<li>" + x + "</li>";
-            document.getElementById("todo-list").innerHTML= todoList;
+
+            if (x) {
+                var todoList = document.getElementById("todo-list").innerHTML;
+                todoList = todoList + "<li>" + x + "</li>";
+                document.getElementById("todo-list").innerHTML = todoList;
+            }
         }
     </script>
 </body>
