@@ -37,4 +37,14 @@ a {
     .right .top-nav .nav-link {
       justify-content: space-around; }
 
+.content .card {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #decbb3;
+  color: #565656;
+  -webkit-box-shadow: 1p x -1px 29px 2px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 1px -1px 29px 2px rgba(0, 0, 0, 0.64);
+  box-shadow: 1px -1px 29px 2px rgba(0, 0, 0, 0.64); }
+
 /*# sourceMappingURL=main.css.map */
