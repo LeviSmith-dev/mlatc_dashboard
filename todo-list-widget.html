@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <section>
+        <div>
+            <label>Add ToDo:</label>
+            <input id="todo-input" type="text" class="todo-text-field" value="">
+            <button id="todo-button" class="button"
+                onclick="addToList()">Add To List</button>
+        </div>
+
+        <ol>
+            <li>
+               Pick up Billy
+            </li>
+            <li>
+                Buy Groceries
+            </li>
+            <li>
+                Pay Bills
+            </li>
+            <li>
+                Go to post office
+            </li>
+            <li>
+                Mail letters
+            </li>
+
+            <li id="last-list-item">
+
+            </li>
+        </ol>
+    </section>
+    <script>
+        function addToList(){
+            var x = document.getElementById("todo-input").value;
+            document.getElementById("last-list-item").innerHTML= x;
+        }
+    </script>
+</body>
+</html>
