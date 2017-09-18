@@ -11,13 +11,13 @@
     }
     .social-item-text {
       h3 {
-        font-size: $header-font-size;
+        font-size: 14px;
       }
       p {
         font-size: $base-font-size;
         font-family: $base-font;
         padding: $base-padding;
-        color: $primary-red;
+        color: #333;
       }
     }
   }

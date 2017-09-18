@@ -1,30 +1,70 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway|Montserrat")
+@import url("https://fonts.googleapis.com/css?family=Raleway|Montserrat");
+html {
+  height: 100%; }
 
-$primary-red: #ef3244
-$secondary-blue: #54BEB3
-$white: #FFFFFF
-$base-font-size: 12px
-$header-font-size: 25px
-$base-padding: 15px
-$base-font: "Raleway", sans-serif
-$base-head-font: "Montserrat", sans-serif
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
 
-html
-  height: 100%
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none;
+    color: #ef3244; }
+  a:focus {
+    text-decoration: none;
+    color: #54BEB3; }
 
-body
-  margin: 0
-  padding: 0
-  width: 100%
-  height: 100%
+.container {
+  display: flex;
+  height: 100%;
+  text-align: center; }
+  .container .left {
+    text-align: center;
+    background-color: #54BEB3;
+    width: 15%; }
 
-a
-  text-decoration: none
+.right {
+  width: 85%; }
+  .right .top-nav {
+    display: flex;
+    background-color: #54BEB3;
+    justify-content: space-around;
+    height: 20%;
+    align-items: center; }
+    .right .top-nav .nav-link {
+      justify-content: space-around; }
 
-  &:hover
-    text-decoration: none
-    color: $primary-red
+.content {
+  display: flex; }
+  .content .card {
+    width: 85%;
+    border: 1px solid #ccc;
+    margin: 20px;
+    background-color: #decbb3;
+    color: #565656;
+    -webkit-box-shadow: 1p x -1px 29px 2px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 1px -1px 29px 2px rgba(0, 0, 0, 0.64);
+    box-shadow: 1px -1px 29px 2px rgba(0, 0, 0, 0.64); }
 
-  &:focus
-    text-decoration: none
-    color: $secondary-blue
+.social-objects {
+  display: flex;
+  flex-direction: column; }
+  .social-objects .social-item {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 19px; }
+    .social-objects .social-item .social-item-icon {
+      width: 15%;
+      height: 15%; }
+    .social-objects .social-item .social-item-text h3 {
+      font-size: 14px; }
+    .social-objects .social-item .social-item-text p {
+      font-size: 12px;
+      font-family: "Raleway", sans-serif;
+      padding: 15px;
+      color: #333; }
+
+/*# sourceMappingURL=main.css.map */
