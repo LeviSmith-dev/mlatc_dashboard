@@ -17,4 +17,24 @@ a {
     text-decoration: none;
     color: #54BEB3; }
 
+.container {
+  display: flex;
+  height: 100%;
+  text-align: center; }
+  .container .left {
+    text-align: center;
+    background-color: #54BEB3;
+    width: 15%; }
+
+.right {
+  width: 85%; }
+  .right .top-nav {
+    display: flex;
+    background-color: #54BEB3;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center; }
+    .right .top-nav .nav-link {
+      justify-content: space-around; }
+
 /*# sourceMappingURL=main.css.map */

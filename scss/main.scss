@@ -29,3 +29,32 @@ a{
 		color:$secondary-blue;
 	}
 }
+
+.container{
+	display:flex;
+	height:100%;
+	text-align: center;
+
+	.left {
+		text-align: center;
+		background-color:$secondary-blue;
+		width:15%;
+	}
+}
+
+.right {
+	width:85%;
+
+	.top-nav{
+		display:flex;
+		background-color: $secondary-blue;
+		justify-content: space-around;
+		height:50px;
+		align-items: center;
+
+		.nav-link{
+			justify-content: space-around;
+		}
+	}
+}
+
