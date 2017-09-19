@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway|Montserrat");
 html {
-  height: 100%; }
+  height: 100%;
+  font-family: "Raleway", sans-serif; }
 
 body {
   margin: 0;
@@ -14,7 +15,7 @@ a {
   color: #FFFFFF; }
   a:hover {
     text-decoration: none;
-    color: #ef3244; }
+    color: #F0433A; }
   a:focus {
     text-decoration: none;
     color: #54BEB3; }
@@ -30,11 +31,11 @@ a {
     .container .left a {
       display: block;
       width: 100%;
-      border-bottom: 2px solid #ef3244;
+      border-bottom: 2px solid #F0433A;
       text-align: center;
       padding: 15px 0; }
       .container .left a:hover {
-        color: #ef3244; }
+        color: #F0433A; }
 
 .right {
   width: 85%; }
@@ -42,7 +43,7 @@ a {
     color: #54BEB3; }
   .right .top-nav {
     display: flex;
-    background-color: #ef3244;
+    background-color: #F0433A;
     justify-content: space-around;
     height: 20%;
     align-items: center; }
@@ -56,8 +57,8 @@ a {
     height: auto;
     border: 1px solid #ccc;
     margin: 20px;
-    background-color: #decbb3;
-    color: #565656;
+    background-color: #2E112D;
+    color: #FFFFFF;
     -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.29);
     -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.29);
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.29); }
@@ -78,6 +79,6 @@ a {
       font-size: 12px;
       font-family: "Raleway", sans-serif;
       padding: 15px;
-      color: #333; }
+      color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */
