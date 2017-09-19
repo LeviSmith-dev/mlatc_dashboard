@@ -1,0 +1,86 @@
+$primary-red:#EF3244;
+$secondary-green:#54BEB3;
+$white:#FFFFFF;
+$base-font-size:12px;
+$header-font-size:25px;
+$base-padding:15px;
+$font-fam:'Open Sans', sans-serif;
+
+html{
+  height:100%;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+.sportcard{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 320px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+.teamLogo{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+
+   img{
+    width: 100%;
+  }
+}
+
+.sportcard ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  transition: .5s;
+}
+ .sportcard ul li{
+  list-style: none;
+  width: 30%;
+  height: 50px;
+}
+
+.sportcard ul li a{
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  background: #fff;
+  color:#262626;
+  text-decoration: none;
+  font-size: 14px;
+  border-right: 1px solid rgba(0,0,0,.5);
+}
+.sportcard ul li a:hover{
+  background: #000;
+  color: #fff;
+}
+
+.sportcard ul li:last-child a{
+  border-right: none;
+}
+.content{
+  background: #000;
+  padding: 20px 10px;
+  text-align: center;
+}
+.content h3{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: $white;
+}
+.content p{
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  color: $white;
+}
+
