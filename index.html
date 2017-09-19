@@ -29,7 +29,19 @@
 				</div>
 				<div class="content">
 					<div class="card">
-						<h1>something here</h1>
+						<<section>
+						<div>
+							<label>Add ToDo:</label>
+							<input id="todo-input" type="text" class="todo-text-field" value="">
+							<button id="todo-button" class="button"
+							        onclick="addToList()">Add To List</button>
+						</div>
+
+						<ol id="todo-list">
+
+
+						</ol>
+					</section>
 					</div>
 
 					<div class="card">
@@ -94,7 +106,17 @@
 				</div>
 			</div>
 		</div>
+		<script>
+        function addToList(){
+            var x = document.getElementById("todo-input").value;
 
+            if (x) {
+                var todoList = document.getElementById("todo-list").innerHTML;
+                todoList = todoList + "<li>" + x + "</li>";
+                document.getElementById("todo-list").innerHTML = todoList;
+            }
+        }
+		</script>
 
 	</body>
 </html>
